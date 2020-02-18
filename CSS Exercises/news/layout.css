@@ -1,0 +1,26 @@
+body {
+  margin: auto;
+  width: 60em;
+  background-color: #EDEFF0;
+  display: grid;
+  grid-template-columns: [start] 4fr [middle] 1fr [end];
+  grid-template-rows: [start] auto [nav] auto [news] 1fr [footer] auto [end];
+}
+
+body > header {
+  grid-column: start/end;
+}
+
+body #menu {
+  grid-column: start;
+}
+
+body aside#related {
+  grid-column: middle/end;
+  grid-row: nav/end;
+}
+
+body > footer {
+  grid-column:start;
+  grid-row: end;
+}

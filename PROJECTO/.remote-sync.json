@@ -1,0 +1,16 @@
+{
+  "uploadOnSave": true,
+  "useAtomicWrites": true,
+  "deleteLocal": false,
+  "hostname": "gnomo.fe.up.pt",
+  "port": "22",
+  "target": "public_html/FEUP-LTW/projecto",
+  "ignore": [
+    ".remote-sync.json",
+    ".git/**"
+  ],
+  "username": "ei12047",
+  "password": "MbOa1MpPq2RqMv3Aq",
+  "watch": [],
+  "transport": "scp"
+}

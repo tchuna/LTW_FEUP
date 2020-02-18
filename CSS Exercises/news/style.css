@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700');
+
+body>header {
+  background-color: #046DD5;
+  padding: 1em;
+  height: 78px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body>header h1, body>header h2 {
+  padding: 0;
+  margin: 0;
+  border-top: 0;
+}
+
+header h2 {
+  height: 20px;
+}
+
+header a {
+  color: white;
+  text-decoration: none;
+}
+
+header h1>a {
+  font-size: 25px;
+  font-weight: 600;
+}
+
+/* ver padding */
+
+header h2>a {
+  position: absolute;
+  top: 66px;
+  height: 18px;
+  font-size: 13px;
+  font-weight: normal;
+  font-style: normal;
+}
+
+header #signup>a {
+  font-size: 13px;
+  font-weight: lighter;
+  font-style: thin;
+}
+
+header #signup :first-of-type {
+  padding: 0.1em 1em 0 0;
+  border-top: 0;
+  border-left: 0;
+  border-bottom: 0;
+  border-color: white;
+  border-right-width: thin;
+  border-style: solid;
+}
+
+header #signup :last-of-type {
+  padding: 1em 1em 0 1em;
+}
+
+body input#hamburger, body label.hamburger {
+  position: absolute;
+  visibility: hidden;
+}
+
+body nav#menu>ul {
+  vertical-align: top;
+  margin: 0;
+  padding: 0;
+}
+
+body #menu li {
+  list-style-type: none;
+  background-color: white;
+  padding: 1em 0;
+  border-top-width: thick;
+  border-right: 0;
+  border-bottom: 0;
+  border-left: 0;
+  border-style: solid;
+  text-align: center;
+}
+
+body #menu li:nth-of-type(1) {
+  border-top-color: #E1493E;
+}
+
+body #menu li:nth-of-type(2) {
+  border-top-color: #8ABA56;
+}
+
+body #menu li:nth-of-type(3) {
+  border-top-color: #5B4282;
+}
+
+body #menu li:nth-of-type(4) {
+  border-top-color: #FF8932;
+}
+
+body #menu li:nth-of-type(5) {
+  border-top-color: #19B6E9;
+}
+
+body #menu li:nth-of-type(6) {
+  border-top-color: #E84C8B;
+}
+
+body #menu li>a {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  color: black;
+  text-decoration: none;
+}
+
+body p {
+  font-family: 'Georgia', sans-serif;
+  font-weight: 300;
+  text-align: left;
+}
+
+body aside#related article {
+  margin: 1em;
+  margin-top: 0;
+  padding-top: 1em;
+}
+
+body aside#related article:last-of-type {
+  padding-bottom: 1em;
+}
+
+body aside#related a {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+body aside#related {
+  background-color: #2A2F33;
+  color: white;
+}
+
+body section#news img {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+
+body section#news header {
+  position: absolute;
+  max-width: 15em;
+  height: auto;
+  margin-top: 0.5em;
+  margin-left: 1.5em;
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body section#news header h1 > a {
+  font-size: 22.5px;
+  font-weight: 500;
+  line-height: 150%;
+
+  text-shadow: 5px 5px 5px black;
+}
+
+body section#news p {
+  margin: 1em;
+}
+
+body section#news p:first-of-type::first-letter {
+  font-size: 200%;
+}
+
+body section#news footer {
+  background-color: #F4655F;
+  padding: 1em;
+  margin-bottom: 1em;
+  color: white;
+  font-size: 12.5px;
+  font-weight: 200;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body section#news footer a {
+  color: white;
+  text-decoration: none;
+  border-bottom-style: solid;
+  border-bottom-color: white;
+  border-bottom-width: thin;
+}
+
+body section#news span.author::before {
+  content: "By ";
+  color: white;
+}
+
+body section#news span.date {
+  margin: 1em;
+}
+
+body section#news a.comments::after {
+  content: " comments";
+  color: white;
+}
+
+body > footer {
+  background-color: black;
+  color: white;
+  padding: 0.5em 1em;
+}
